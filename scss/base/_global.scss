@@ -1,0 +1,39 @@
+body {
+    font-family: var(--ff);
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-200);
+    text-align: center;
+    margin-top: 5.5rem;
+    background: var(--clr-neutral-100);
+    position: relative;
+}
+
+.intro {
+    margin-bottom: 4rem;
+    .light {
+        font-weight: 200;
+    }
+
+    h1 {
+        font-size: var(--fs-600);
+        color: var(--clr-neutral-300);
+        max-width: 20ch;
+    }
+
+    p {
+        max-width: 55ch;
+    }
+
+    h1,
+    p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
